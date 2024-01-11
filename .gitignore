@@ -1,9 +1,0 @@
-.idea
-
-# vitepress
-.vitepress/dist
-.vitepress/cache
-
-# npm
-node_modules
-package-lock.json
