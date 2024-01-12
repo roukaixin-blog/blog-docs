@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "不北咪博客项目文档"
-  text: "博客项目搭建文档"
-  tagline: My great project tagline
+  name: "不北咪"
+  text: "博客项目文档"
+  tagline: 使用 spring boot ，spring cloud ， spirng cloud alibaba ，spring security ，ribitmq ，redis ，Elasticsearch 技术构建的博客项目
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始
+      link: /start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 演示地址
+      link: 
 
 features:
   - title: Feature A
