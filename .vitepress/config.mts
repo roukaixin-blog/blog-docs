@@ -73,14 +73,28 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
 
-    // 搜索
-    search: {
-      provider: 'local'
-    },
-
     // 页面导航
     outline: {
       label: '页面导航'
+    },
+
+    // 编辑页面
+    editLink: {
+      pattern: 'https://github.com/roukaixin/blog-docs/tree/main/src/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+
+    // 最后更新时间
+    lastUpdated: {
+      text: '最后更新于 ',
+      formatOptions: {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric'
+      }
     },
 
     // 上一页/下一页
