@@ -54,6 +54,22 @@ export default defineConfig({
             { text: '介绍', link: '/blog-server/cloud/' },
             { text: '开始', link: '/blog-server/cloud/start' }
           ]
+        },
+        {
+          text: '手册',
+          // 可折叠
+          collapsed: false,
+          items: [
+            { text: '部署教程', link: '/blog-server/cloud/manual/' },
+            {
+              text: '代码解读',
+              collapsed: false,
+              items: [
+                { text: 'PasswordEncode', link: '/blog-server/cloud/manual/code/password-encode' }
+              ]
+
+            }
+          ]
         }
       ],
       '/blog-vue/': [

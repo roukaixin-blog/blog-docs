@@ -6,6 +6,9 @@ hero:
   name: "不北咪"
   text: "博客项目文档"
   tagline: 使用 spring boot ，spring cloud ， spirng cloud alibaba ，spring security ，ribitmq ，redis ，Elasticsearch 技术构建的博客项目
+  image:
+    src: /avatar.jpg
+    alt: VitePress
   actions:
     - theme: brand
       text: 开始
