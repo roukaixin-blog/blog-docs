@@ -123,5 +123,10 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页'
     }
+  },
+
+  // 站点地图
+  sitemap: {
+    hostname: 'https://roukaixin.github.io/blog-docs/'
   }
 })
