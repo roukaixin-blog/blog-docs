@@ -12,6 +12,11 @@ export default defineConfig({
   srcDir: './src',
   // 最后更新时间
   lastUpdated: true,
+  // markdown 配置
+  markdown: {
+    // 开启代码块行号
+    lineNumbers: true
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
