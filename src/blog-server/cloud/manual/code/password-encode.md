@@ -27,9 +27,9 @@ public PasswordEncoder passwordEncoder() {
 
 > 相关配置
 
-- yaml
+::: code-group
 
-```yaml
+```yaml [yaml]
 spring:
   security:
     password-encoder:
@@ -41,15 +41,16 @@ spring:
         noop: true
 ```
 
-- properties
-
-```properties
+```properties [properties]
 spring.security.password-encoder.encoding-id=bcrypt
 spring.security.password-encoder.encoders.bcrypt=false
 spring.security.password-encoder.encoders.scrypt=false
 spring.security.password-encoder.encoders.pbkdf2=false
 spring.security.password-encoder.encoders.noop=true
 ```
+
+:::
+
 
 ::: tip 说明
 1、如果自定义 `encoing-id` 之后，`encoders` 中在指定就没有效果了。
