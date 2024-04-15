@@ -43,6 +43,6 @@ jobs:
         with:
           folder: .vitepress/dist
           repository-name: roukaixin-blog/roukaixin-blog.github.io
-          token: ${{ GITHUB_TOKEN }}
+          token: ${{ GITEE_TOKEN }}
           branch: docs
           commit-message: ${{ github.event.head_commit.message }}
