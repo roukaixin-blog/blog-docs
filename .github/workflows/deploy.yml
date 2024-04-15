@@ -42,5 +42,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: .vitepress/dist
+          repository-name: roukaixin-blog/roukaixin-blog.github.io
+          token: ${{ GITHUB_TOKEN }}
           branch: docs
           commit-message: ${{ github.event.head_commit.message }}
