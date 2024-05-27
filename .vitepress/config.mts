@@ -4,7 +4,6 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "'不北咪'博客项目文档",
     description: "博客项目搭建文档",
-    base: '/blog-docs/',
     lang: 'zh-CN',
     // 简洁 url（没有 .html 后缀）
     cleanUrls: true,
